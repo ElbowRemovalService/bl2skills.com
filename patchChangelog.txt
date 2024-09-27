@@ -1,0 +1,84 @@
+Skill changes from the UCP, likely outdated
+
+
+======================================CHARACTER SKILLS============================================
+
+==================Axton==================
+1.	Increased the base Damage of Axton’s turret by 20% and gave it 20% more Fire Rate.
+2.	Swapped Crisis Management's and Resourceful's position in the skill tree.
+3.	Sentry: Replaced Burst Fire with Fire Rate, 3% per point.
+4.	Laser Sight: Adds Turret Accuracy and Turret Damage now, 5% per point.
+5.	Scorched Earth: Removed the hidden 15% Turret Damage penalty and made it passively increase Axton's Explosive Damage by 10%.
+6.	Double up: Removed the hidden 15% Turret Damage penalty and instead made it additionally passively increase Turret Damage by 30%.
+7.	Impact: Replaced Melee Damage with Accuracy.
+8.	Overload: Reduces the Magazine Size increase but made it affect all gun types, 7% instead of 10% per point.
+9.	Battlefront: Replaced Melee Damage with Critical Hit Damage.
+10.	Duty Calls: Replaced Fire Rate with additive Critical Hit Damage and changed the Gun Damage to 8% instead of 5% per point.
+11.	Ranger: Increased all bonuses, 2% instead of 1% per point.
+12.	Nuke: Doubled the Nuke's Damage and the fire damage over time Damage by x5 and made it passively increase Axton's Cooldown Rate by 20%.
+13.	Preparation: Increased Shield Capacity, 4% instead of 3% per level.
+14.	Forbearance: Replaced Maximum Health with Damage Reduction, 2% per point.
+15.	Phalanx Shield: Doubled the capacity of Phalanx Shield and made it passively increase Axton's Shield Capacity by 20%.
+16.	Crisis Management: Replaced Melee Damage with Damage Reduction, 6% per point.
+17.	Gemini: Additionally gives the turret 30% Fire Rate and 3 more shots per burst.
+
+==================Maya===================
+1.	Increased Sweet Release's healing Projectile Speed by 50%.
+2.	Removed the "increases Cooldown by 3 seconds" text from Thoughtlock's description (it never actually increased the cooldown).
+3.	Mind's Eye: Replaced Melee Damage with Accuracy, 5% per point.
+4.	Recompense: Quadrupled the damage it deals to the attacker but halved the chance.
+5.	Res: Additionally increases Maya's Fight For Your Life duration by 35% now.
+6.	Life Tap: Removed the annoying sound.
+7.	Scorn: Doubled the Slag chance and reduced the cooldown, from 18 seconds to 10 seconds.
+8.	Helios: Increased the damage dealt by 50%.
+9.	Backdraft: Doubled the Melee Damage, but reduced the Nova Radius slightly.
+10.	Blight Phoenix: Doubled the damage dealt.
+11.	Ruin: Increased the Damage and damage over time Damage by 5x.
+
+=================Salvador================
+1.	Fixed Lay Waste/Keep it Piping Hot/5 Shots or 6/Incite/Just Got Real/I’m your Huckleberry not giving off-hand weapons the bonuses.
+2.	Auto-Loader: Additionally passively increases Salvador's Reload Speed by 15% now.
+3.	Hard to Kill: Increased Health Regeneration, 0.2% instead of 0.1% per point.
+4.	I'm the Juggernaut: Increased Damage Reduction, 12% instead of 4% per point.
+
+==================Zer0===================
+1.	Swapped Grim's and Fearless's position in the skill tree.
+2.	Removed the "increased Gun Critical Damage" text from Decepti0n's description (it technically doesn't exist).
+3.	Fixed Be Like Water giving 10% Gun Damage instead of 20%.
+4.	0ptics: Increased the Aim Steadiness and additionally increases Aiming Speed now, 14% per point.
+5.	Kill C0nfirmed: Stacks instantly now.
+6.	Critical Ascensi0n: Decays stacks at 3 seconds between stacks instead of 1 second between stacks now.
+7.	C0unter Strike: Increased the chance for it to trigger after getting hit.
+8.	Grim: Increased Cooldown Rate, 4% instead of 1.5% per level.
+9.	Innervate: Increased Health Regeneration, 1% instead of 0.8% per point, and replaced the Gun Damage with Status Effects Duration Reduction, 4% per point.
+10.	Ir0n Hand: Changed Maximum Health to Damage Reduction.
+11.	Fearless: Additionally increases Health Regeneration, 0.3% per point.
+12.	Resurgence: Increased Maximum Health restored, 6% instead of 4% per point.
+13.	Like the Wind: Additionally gives Zer0 a chance to dodge bullets now, 5% per point.
+
+==================Gaige==================
+1.	Buck Up: Additionally passively increases Gaige's Shield Capacity by 15% now.
+2.	Explosive Clap: Sped up its animation, increased its Damage, and additionally passively increases Gaige's Melee Damage by 20% now.
+3.	Made Of Sterner Stuff: Increased Damage Reduction to 4% per point from 1%, and Melee Damage to 6% per point from 3%.
+4.	Sharing is Caring: Additionally passively increases Gaige's Shield Capacity/Recharge Rate by 20% and gives -20% Shield Recharge Delay now.
+5.	More Pep: Doubled all stats, +8%/+4% instead of +4%/+2% per level.
+6.	Shock Storm: Doubled the Storm's Radius.
+7.	The Stare: Doubled its Damage. (Including damage over time)
+8.	Strength of Five Gorillas: Additionally increases Gun Damage now, 3% per level.
+9.	Shock and AAAGGGGHHH!: Additionally passively increases Gaige's reload speed by 25% now.
+10.	One Two Boom: Sped up its animation, doubled its Damage (including damage over time), and additionally passively increases Gaige's Explosive Damage by 15%.
+11.	Wires Don't Talk: Increased Damage, 5% instead of 3% per point.
+12.	Make it Sparkle: Additionally passively increases Gaige's Elemental Effect Chance and Damage by 30% now.
+13.	Robot Rampage: Additionally passively increases Gaige's Gun Damage by 20% now.
+14.	Annoyed Android: Additionally increases the damage Deathtrap deals now, 7% per point.
+15.	With Claws: Increased Melee Damage to 1.25% per Anarchy stack from 0.6% (It rounds it to 1.3 but it's still 1.25) and additionally increases Swap Speed by 0.625% per Anarchy stack.
+
+==================Krieg==================
+1.	Returned Krieg’s Raving Retribution Rants.
+2.	Added Blood Euphoria (which was an unused but existing skill) as a Bloodlust tier 4 gamechanger for Krieg: Heals for 0.6% Maximum Health per Bloodlust stack when kill skills end.
+3.	Fixed Elemental Elation and Salt the Wound stacks overlapping each other
+4.	Fixed the self-hit damage from Silence the Voices being affected by Grenade Damage.
+5.	Bloody Revival: Removed Assault Rifle requirement.
+6.	Pull the Pin: Additionally increases Krieg's Grenade Damage by 10% now.
+7.	Light The Fuse: Doubled the Damage.
+8.	Hellfire Halitosis: Increased the Damage by 4x.

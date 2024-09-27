@@ -1,0 +1,50 @@
+Full Changelog made by Elbow Removal Service of all changes to the code of bl2skills.
+
+Last updated: 9/25/24
+
+===============OVERALL CHANGES===============
+1. Added links for BL2Reborn (by Kubakobi and Ezeith) and HarderBetterFasterScooter (by Elbow Removal Service).
+2. Added HarderBetterFasterScooter pages.
+3. Created SkillManager2.js to run HBFS pages. 
+4. Created jquery.js locally just in case. 
+5. Finally fixed SM2.js. 
+6. Moved all images into img and img/icons
+7. Corrected several errors inside the UCP files
+8. Added a Home button to the hubs of each mod page. 
+9. Added a favicon to all pages. 
+10. Updated patchChangelog.txt, need to make sure all listed changes are accurate to UCP 5.0.1
+
+
+===============MOD SPECIFIC CHANGES===============
+----------HARDER BETTER FASTER SCOOTER------------
+++++++++++++++++++++++Skills++++++++++++++++++++++
+Axton:
+
+
+
+_________
+Gaige:
+
+
+
+_________
+Maya: 
+
+
+
+_________
+Krieg:
+
+
+
+_________
+Salvador:
+
+
+
+_________
+Zero: 
+
+
+
+_________
