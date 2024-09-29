@@ -13,6 +13,12 @@ Last updated: 9/25/24
 8. Added a Home button to the hubs of each mod page. 
 9. Added a favicon to all pages. 
 10. Updated patchChangelog.txt, need to make sure all listed changes are accurate to UCP 5.0.1
+11. Fixed all incorrect statistics on the reborn pages. Fixed issue with reborn/assassin not functioning. 
+12. Added img/icon/sphere.png for reborn/siren pages. 
+13. Removed various whitespace/useless comments from several pages. 
+14. Clarified the link pointed at the original source code. 
+15. Removed several vestigial code segments. 
+16. Added exodus and bl25 sections. They have yet to be updated in any capacity. I am dreading the BL2.5 pages.
 
 
 ===============MOD SPECIFIC CHANGES===============

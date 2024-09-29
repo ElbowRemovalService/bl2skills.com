@@ -48,8 +48,6 @@ function checkLongTouch(fromTimer) {
 function updatePoints(skillHandle, change) {
 	var tree = skillHandle.parent().parent();
 	var thisLevel = parseInt(skillHandle.parent().attr("data-level"));
-	var invested = parseInt(skillHandle.parent().attr("data-invested"));
-	var tierTotal = parseInt(skillHandle.parent().attr("data-total"));
 	var pain = parseInt(skillHandle.parent().attr("data-ttotal")); //Grabs the number of points required to advance
 	var treeTotal = parseInt(tree.find("span.totalPoints").text());
 	var points = parseInt(skillHandle.attr("data-points"));

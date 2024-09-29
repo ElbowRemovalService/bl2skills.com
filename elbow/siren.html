@@ -10,9 +10,6 @@
 	<script src="../skillManager2.js"></script>
 </head>
 <body>
-<!(10-26-22)ERS: the var "data-ttotal" was added to allow for mid-tree caps to then give access to the next tier. Allows acces to tier from any number of points >
-<!(10-26-22)ERS: "data-max" was set to 10. (10-27-22)ERS: Partially fixed URL errors. Replaced "10" with "-". >
-<!(10-27-22)ERS: URL "fix" reverted after serious repercussions found. >
 <div class="header">
 	<div class="links"><a class="reset" href="elbow.html">&lt; go back</a> | <a class="reset" href="../index.html">Home</a> | <a href="siren.html" class="reset">reset</a> | <a href="#" class="permalink">Permalink to this build</a></div>
 	<h1>Borderlands<em>2</em> skill calculator <div class="stamp">(HBFS)</div></h1>
@@ -210,19 +207,9 @@
 	</div>
 </div>
 </div>
-
 <div class="summary">
 	<div class="descriptionContainer"></div>
-	<div class="footer">Note: Permalink is broken. This issue cannot be fixed. </div>
-	<div class="footer">Art &copy; 2012 <a href="https://www.gearboxsoftware.com/" target="_blank">Gearbox Studios</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google. Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Source Code</a>.</div>
+	<div class="footer">Art &copy; 2012 <a href="https://www.gearboxsoftware.com/" target="_blank">Gearbox Studios</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google. Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Original Source Code</a>.</div>
 </div>
-
 </body>
 </html>
-
-<!--
-find:
-^(.+) \t[0-9]+ \t([0-9]+) \t(.+)$
-replace:
-\t\t<div class="skill" data-points="0" data-max="\2"><img src="../img/icons/class-tree-\i(0)">\n\t\t\t<div class="description"><h2>\1</h2>\3</div>\n\t\t\t<div class="points"></div>\n\t\t</div>
--->

@@ -48,15 +48,13 @@ function checkLongTouch(fromTimer) {
 function updatePoints(skillHandle, change) {
 	var tree = skillHandle.parent().parent();
 	var thisLevel = parseInt(skillHandle.parent().attr("data-level"));
-	var invested = parseInt(skillHandle.parent().attr("data-invested"));
-	var tierTotal = parseInt(skillHandle.parent().attr("data-total"));
-	var pain = parseInt(skillHandle.parent().attr("data-ttotal")); //(10-25-22)ERS: Grabs the number of points required to advance
+	var pain = parseInt(skillHandle.parent().attr("data-ttotal")); //Grabs the number of points required to advance
 	var treeTotal = parseInt(tree.find("span.totalPoints").text());
 	var points = parseInt(skillHandle.attr("data-points"));
 	var max = parseInt(skillHandle.attr("data-max"));
 	var charLevel = parseInt($("span.charLevel").text());
 	if(change > 0) {
-		if (points < max && treeTotal >= pain && charLevel < 80) { //(10-25-22)ERS: Replaced "5 * thisLevel" with "pain" 
+		if (points < max && treeTotal >= pain && charLevel < 80) { //Replaced "5 * thisLevel" with "pain" 
 			++points;
 		}
 	} else {
@@ -88,7 +86,7 @@ function updateTree(treeHandle) {
 		$(this).attr("data-invested", totalPoints); //the PREVIOUS tier running total
 		var tierLevel = parseInt($(this).attr("data-level"));
 		var tierTotal = 0;
-		var tierPoints = parseInt($(this).attr("data-ttotal")); //(10-25-22)ERS: Grabs the number of points required to advance
+		var tierPoints = parseInt($(this).attr("data-ttotal")); //Grabs the number of points required to advance
 		$(this).children("div.skill").each(function(index) {
 			var p = parseInt($(this).attr("data-points"));
 			var m = parseInt($(this).attr("data-max"));
@@ -113,7 +111,7 @@ function updateTree(treeHandle) {
 		$(this).attr("data-total", tierTotal);
 	});
 	$(treeHandle).find("span.totalPoints").html(totalPoints);
-	$(treeHandle).parent().children(".color").height(Math.min(80 + totalPoints * 73.05 / 5 + (totalPoints > 21 ? 21 : 0), 396)); //(10-25-22)ERS: *2 for 2 points/level | 130 means full end pos1 | 73.05 means full end pos2 (def 59.0)
+	$(treeHandle).parent().children(".color").height(Math.min(80 + totalPoints * 73.05 / 5 + (totalPoints > 21 ? 21 : 0), 396)); //130 means full end pos1 | 73.05 means full end pos2 (def 59.0)
 }
 
 function updateStats() {
