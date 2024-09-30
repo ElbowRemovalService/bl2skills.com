@@ -1,3 +1,5 @@
+//This is the skill manager for the Reborn pages, exclusively. 
+
 var mousedownbegin;
 var lastTouched;
 var touchtimer;

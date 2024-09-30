@@ -1,3 +1,5 @@
+//This is the standard manager. It manages vanilla, exodus, and patch. 
+
 var mousedownbegin;
 var lastTouched;
 var touchtimer;

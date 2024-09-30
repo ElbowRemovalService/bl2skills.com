@@ -1,6 +1,6 @@
 Full Changelog made by Elbow Removal Service of all changes to the code of bl2skills.
 
-Last updated: 9/25/24
+Last updated: 9/28/24
 
 ===============OVERALL CHANGES===============
 1. Added links for BL2Reborn (by Kubakobi and Ezeith) and HarderBetterFasterScooter (by Elbow Removal Service).
@@ -19,38 +19,11 @@ Last updated: 9/25/24
 14. Clarified the link pointed at the original source code. 
 15. Removed several vestigial code segments. 
 16. Added exodus and bl25 sections. They have yet to be updated in any capacity. I am dreading the BL2.5 pages.
+17. All but the psycho page of exodus are complete. 
+18. Created and added sphere.png, as Reborn uses the previously unused asset. 
+19. Updated a few tags to standard, such as adding language to all pages
 
 
-===============MOD SPECIFIC CHANGES===============
-----------HARDER BETTER FASTER SCOOTER------------
-++++++++++++++++++++++Skills++++++++++++++++++++++
-Axton:
-
-
-
-_________
-Gaige:
-
-
-
-_________
-Maya: 
-
-
-
-_________
-Krieg:
-
-
-
-_________
-Salvador:
-
-
-
-_________
-Zero: 
-
-
-
-_________
+TO ADD:
+Specific Skill Changes in the Changelog
+It really isn't worth it to put all the various mod pages under a folder, nor the js. 

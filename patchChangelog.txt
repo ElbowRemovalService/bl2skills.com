@@ -1,8 +1,4 @@
-Skill changes from the UCP, likely outdated
-
-
-======================================CHARACTER SKILLS============================================
-
+Skill changes from the UCP. I believe that these are still accurate as of UCP 5.0.1. 
 ==================Axton==================
 1.	Increased the base Damage of Axton’s turret by 20% and gave it 20% more Fire Rate.
 2.	Swapped Crisis Management's and Resourceful's position in the skill tree.

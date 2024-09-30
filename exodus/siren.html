@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Borderlands 2 Skill Calculator: Siren</title>
@@ -12,7 +12,7 @@
 <body>
 
 <div class="header">
-	<div class="links"><a class="reset" href="vanilla.html">&lt; go back</a> | <a class="reset" href="../index.html">Home</a> | <a href="siren.html" class="reset">reset</a> | <a href="#" class="permalink">Permalink to this build</a></div>
+	<div class="links"><a class="reset" href="exodus.html">&lt; go back</a> | <a class="reset" href="../index.html">Home</a> | <a href="siren.html" class="reset">reset</a> | <a href="#" class="permalink">Permalink to this build</a></div>
 	<h1>Borderlands<em>2</em> skill calculator <div class="stamp">(Exodus)</div></h1>
 	<h2>Maya</h2>
 	<h3>Level <span class="charLevel">5</span> Siren</h3>
@@ -45,7 +45,7 @@
 				<div class="points"></div>
 			</div>
 			<div class="skill push1" data-points="0" data-max="5"><img src="../img/icons/siren-motion-3.png">
-				<div class="description"><h2>Kinetic Reflection</h2>Kill Skill. Killing an enemy causes you to deflect bullets against nearby enemies, reducing damage to you by <em data-base="10"></em>% and dealing <em data-base="20"></em>% damage<span class="perLevel"> per level</span> for a short time.</div>
+				<div class="description"><h2>Kinetic Reflection</h2>Kill Skill. Killing an enemy causes you to deflect bullets against nearby enemies, reducing damage to you by <em data-base="10"></em>% and dealing <em data-base="40"></em>% damage<span class="perLevel"> per level</span> for a short time.</div>
 				<div class="points"></div>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 		</div>
 		<div class="tier" data-level="5" data-invested="0" data-total="0">
 			<div class="skill push1" data-points="0" data-max="1"><img src="../img/icons/siren-motion-9.png">
-				<div class="description"><h2>Thoughtlock</h2>Phaselock causes enemies to switch allegiance and fight amongst themselves. Additionally, Phaselock's cooldown and duration are increased (3s and 4s respectively). </div>
+				<div class="description"><h2>Thoughtlock</h2>Phaselock causes enemies to switch allegiance and fight amongst themselves. Additionally, Phaselock's duration is increased by 4s, and Thoughtlocked enemies do +300% damage. </div>
 				<div class="points"></div>
 			</div>
 		</div>
@@ -94,7 +94,7 @@
 	<div class="tree">
 		<div class="tier" data-level="0" data-invested="0" data-total="0">
 			<div class="skill" data-points="0" data-max="5"><img src="../img/icons/siren-harmony-0.png">
-				<div class="description"><h2>Mind's Eye</h2><em data-base="+5"></em>% Critical Hit Damage and <em data-base="+6"></em>% Melee Damage<span class="perLevel"> per level</span>.</div>
+				<div class="description"><h2>Mind's Eye</h2><em data-base="+5"></em>% Critical Hit Damage and <em data-base="+10"></em>% Melee Damage<span class="perLevel"> per level</span>.</div>
 				<div class="points"></div>
 			</div>
 			<div class="skill push1" data-points="0" data-max="5"><img src="../img/icons/siren-harmony-1.png">
@@ -157,7 +157,7 @@
 	<div class="tree">
 		<div class="tier" data-level="0" data-invested="0" data-total="0">
 			<div class="skill" data-points="0" data-max="5"><img src="../img/icons/siren-cataclysm-0.png">
-				<div class="description"><h2>Flicker</h2><em data-base="+6"></em>% Elemental Effect Chance<span class="perLevel"> per level</span>.</div>
+				<div class="description"><h2>Flicker</h2><em data-base="+10"></em>% Elemental Effect Chance<span class="perLevel"> per level</span>.</div>
 				<div class="points"></div>
 			</div>
 			<div class="skill push1" data-points="0" data-max="5"><img src="../img/icons/siren-cataclysm-1.png">
@@ -214,19 +214,10 @@
 	</div>
 </div>
 </div>
-
 <div class="summary">
 	<h2>List of Skills:</h2>
 	<div class="descriptionContainer"></div>
-	<div class="footer">Art &copy; 2012 <a href="https://www.gearboxsoftware.com/" target="_blank">Gearbox Studios</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google. Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Source Code</a>.</div>
+	<div class="footer">Art &copy; 2012 <a href="https://www.gearboxsoftware.com/" target="_blank">Gearbox Studios</a>. <a href="https://www.google.com/webfonts" target="_blank">Fonts</a> by Google. Code hosted on Github. <a href="https://github.com/seigler/bl2skills.com">Original Source Code</a>.</div>
 </div>
-
 </body>
 </html>
-
-<!--
-find:
-^(.+) \t[0-9]+ \t([0-9]+) \t(.+)$
-replace:
-\t\t<div class="skill" data-points="0" data-max="\2"><img src="../img/icons/class-tree-\i(0)">\n\t\t\t<div class="description"><h2>\1</h2>\3</div>\n\t\t\t<div class="points"></div>\n\t\t</div>
--->

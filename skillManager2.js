@@ -1,3 +1,5 @@
+//This manager is used exclusively for the HBFS pages. It is essentially just skillManagerReborm.js except with 2 skill points per level. 
+
 var mousedownbegin;
 var lastTouched;
 var touchtimer;
