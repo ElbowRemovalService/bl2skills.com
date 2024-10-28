@@ -1,6 +1,6 @@
 Full Changelog made by Elbow Removal Service of all changes to the code of bl2skills.
-
-Last updated: 9/28/24
+Last updated: 10/28/24
+Version: 1.8.0
 
 ===============OVERALL CHANGES===============
 1. Added links for BL2Reborn (by Kubakobi and Ezeith) and HarderBetterFasterScooter (by Elbow Removal Service).
@@ -19,11 +19,20 @@ Last updated: 9/28/24
 14. Clarified the link pointed at the original source code. 
 15. Removed several vestigial code segments. 
 16. Added exodus and bl25 sections. They have yet to be updated in any capacity. I am dreading the BL2.5 pages.
-17. All but the psycho page of exodus are complete. 
+17. The Exodus pages are completed. 
 18. Created and added sphere.png, as Reborn uses the previously unused asset. 
 19. Updated a few tags to standard, such as adding language to all pages
+20. Re-19, updated a few functional things to match standard more, plus other housekeeping issues.
+21. Updated patchChangelog.txt
+22. Created modchangelogs and moved patchChangelog.txt into it. 
+23. Created bl25Changelog.txt, exodusChangelog.txt, rebornChangelog.txt, and hbfsChangelog.txt
+24. Modified the index.html page to make more than 6 mod links look semi-appealing
+25. Added Snowbound and Oselands link
+26. Unified a few minor things, again
 
 
 TO ADD:
 Specific Skill Changes in the Changelog
 It really isn't worth it to put all the various mod pages under a folder, nor the js. 
+I REAAAALLLY don't want to create bl2skills/mods and put all the mod files in it
+That would be AWFUL to go through each and every file and add "../" to every single link

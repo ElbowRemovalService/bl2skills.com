@@ -1,4 +1,4 @@
-//This manager is used exclusively for the HBFS pages. It is essentially just skillManagerReborm.js except with 2 skill points per level. 
+//This manager is used exclusively for the HBFS pages. It is essentially just skillManagerReborn.js except with 2 skill points per level. 
 
 var mousedownbegin;
 var lastTouched;
@@ -94,7 +94,7 @@ function updateTree(treeHandle) {
 			var m = parseInt($(this).attr("data-max"));
 			totalPoints += p/2;
 			tierTotal += p;
-			tierPoints += p; //(10-25-22)ERS
+			tierPoints += p; 
 			$(this).children("div.points").html(p+"/"+m);
 			$(this).children("div.points").css("visibility", (totalPoints*2 < tierPoints) ? "hidden" : "visible");
 			$(this).removeClass("partial full");
